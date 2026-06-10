@@ -1,15 +1,14 @@
 <?php
 
 $conn = mysqli_connect(
-"localhost",
-"tiuinmtr_tab",
-"Tabek0000#",
-"tiuinmtr_tab"
+    "localhost",
+    "root",
+    "",
+    "apk_bokinglapangan_badminton"
 );
 
 if(!$conn){
-die("Koneksi gagal: " . mysqli_connect_error());
+    die("Koneksi gagal : " . mysqli_connect_error());
 }
-
 
 ?>
